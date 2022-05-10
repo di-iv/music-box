@@ -1,0 +1,22 @@
+.header {
+  position: absolute;
+  top: 25px;
+  right: 0;
+  left: 0;
+
+  font-size: 11px;
+  text-transform: uppercase;
+
+  &-logo {
+    width: 24px;
+  }
+
+  &-link {
+    transition: color 0.3s;
+
+    &:hover,
+    &-active {
+      color: $white;
+    }
+  }
+}
