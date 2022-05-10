@@ -1,0 +1,18 @@
+@mixin margins($sizes) {
+  $positions: (
+    s: left,
+    t: top,
+    e: right,
+    b: bottom
+  );
+
+  @each $size in $sizes {
+    @each $position in $positions {
+      .m#{nth($position, 1)}-#{nth($size, 1)} {
+        margin-#{nth($position, 2)}: nth($size, 2);
+      }
+    }
+  }
+}
+
+@include margins(map-merge($spacers, (auto: auto)));
