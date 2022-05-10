@@ -4,7 +4,11 @@
   "description": "[![Actions Status](https://github.com/di-iv/layout-designer-project-lvl2/workflows/hexlet-check/badge.svg)](https://github.com/di-iv/layout-designer-project-lvl2/actions)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "make install",
+    "lint": "make lint",
+    "lint-style-fix": "make lint-style-fix",
+    "deploy": "make deploy"
   },
   "repository": {
     "type": "git",
