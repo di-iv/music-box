@@ -1,0 +1,366 @@
+.ms-0 {
+  margin-left: 0;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.me-0 {
+  margin-right: 0;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.ms-15 {
+  margin-left: 15px;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+.me-15 {
+  margin-right: 15px;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.ms-16 {
+  margin-left: 16px;
+}
+
+.mt-16 {
+  margin-top: 16px;
+}
+
+.me-16 {
+  margin-right: 16px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.ms-24 {
+  margin-left: 24px;
+}
+
+.mt-24 {
+  margin-top: 24px;
+}
+
+.me-24 {
+  margin-right: 24px;
+}
+
+.mb-24 {
+  margin-bottom: 24px;
+}
+
+.ms-25 {
+  margin-left: 25px;
+}
+
+.mt-25 {
+  margin-top: 25px;
+}
+
+.me-25 {
+  margin-right: 25px;
+}
+
+.mb-25 {
+  margin-bottom: 25px;
+}
+
+.ms-30 {
+  margin-left: 30px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.me-30 {
+  margin-right: 30px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.ms-40 {
+  margin-left: 40px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.me-40 {
+  margin-right: 40px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.ms-48 {
+  margin-left: 48px;
+}
+
+.mt-48 {
+  margin-top: 48px;
+}
+
+.me-48 {
+  margin-right: 48px;
+}
+
+.mb-48 {
+  margin-bottom: 48px;
+}
+
+.ms-50 {
+  margin-left: 50px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.me-50 {
+  margin-right: 50px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.ms-90 {
+  margin-left: 90px;
+}
+
+.mt-90 {
+  margin-top: 90px;
+}
+
+.me-90 {
+  margin-right: 90px;
+}
+
+.mb-90 {
+  margin-bottom: 90px;
+}
+
+.ms-100 {
+  margin-left: 100px;
+}
+
+.mt-100 {
+  margin-top: 100px;
+}
+
+.me-100 {
+  margin-right: 100px;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
+}
+
+.ms-auto {
+  margin-left: auto;
+}
+
+.mt-auto {
+  margin-top: auto;
+}
+
+.me-auto {
+  margin-right: auto;
+}
+
+.mb-auto {
+  margin-bottom: auto;
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: Roboto;
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: Roboto;
+  src: url("../fonts/Roboto-Medium.ttf");
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: Roboto;
+  src: url("../fonts/Roboto-Bold.ttf");
+}
+
+body {
+  color: #cacaca;
+  font-size: 18px;
+  font-family: Roboto, sans-serif;
+  line-height: 1.5;
+
+  background-color: #08020d;
+}
+
+h1 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 38px;
+  text-transform: uppercase;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-content {
+  justify-content: center;
+}
+
+.text-white {
+  color: #fff;
+}
+
+@media (max-width: 770px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  color: #cacaca;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button,
+input {
+  border: none;
+  outline: none;
+}
+
+.header {
+  position: absolute;
+  top: 25px;
+  right: 0;
+  left: 0;
+
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.header-logo {
+  width: 24px;
+}
+
+.header-link {
+  transition: color 0.3s;
+}
+
+.header-link:hover,
+.header-link-active {
+  color: #fff;
+}
+
+.search {
+  width: 248px;
+  height: 25px;
+  padding: 5px 10px;
+
+  font-size: 13.3px;
+  text-transform: uppercase;
+
+  background-color: #3c3b3d;
+  border-radius: 50px;
+}
+
+.page-description {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.page-description-main {
+  text-align: center;
+
+  background-image: url("../images/banner.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.subscribe {
+  max-width: 570px;
+  margin: 0 auto;
+}
+
+.subscribe-input {
+  width: 100%;
+  max-width: 270px;
+  padding: 16px 22px;
+
+  color: #fff;
+
+  background-color: transparent;
+  border: 2px solid #cacaca;
+  border-radius: 3px;
+}
+
+.btn {
+  width: 100%;
+
+  color: #fff;
+  text-transform: uppercase;
+
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-green {
+  padding: 20px 30px;
+
+  background-color: #34c176;
+}

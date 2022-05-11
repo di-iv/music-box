@@ -1,0 +1,12 @@
+.page-description {
+  padding-top: 200px;
+  padding-bottom: 200px;
+
+  &-main {
+    text-align: center;
+
+    background-image: url("../images/banner.png");
+    background-position: center;
+    background-size: cover;
+  }
+}

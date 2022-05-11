@@ -1,0 +1,15 @@
+.btn {
+  width: 100%;
+
+  color: $white;
+  text-transform: uppercase;
+
+  border-radius: 5px;
+  cursor: pointer;
+
+  &-green {
+    padding: 20px 30px;
+
+    background-color: $green;
+  }
+}
