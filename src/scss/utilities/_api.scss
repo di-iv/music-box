@@ -1,0 +1,37 @@
+@function get-value-from-type($value, $type: value) {
+  @if type-of($value) == list {
+    @if $type == name {
+      @return nth($value, 1);
+    } @else {
+      @return nth($value, 2);
+    }
+  } @else {
+    @return $value;
+  }
+}
+
+@mixin utility($name, $property, $breakpoints, $values) {
+  @each $value in $values {
+    @if $breakpoints {
+      @each $breakpoint in $breakpoints {
+        @include media-breakpoint-down($breakpoint) {
+          .#{$name}-#{$breakpoint}-#{get-value-from-type($value, name)} {
+            #{$property}: #{get-value-from-type($value)};
+          }
+        }
+      }
+    }
+    .#{$name}-#{get-value-from-type($value, name)} {
+      #{$property}: #{get-value-from-type($value)};
+    }
+  }
+}
+
+@each $utility-name, $utility in $utilities {
+  @include utility(
+    $utility-name,
+    map-get($utility, property),
+    map-get($utility, responsive),
+    map-get($utility, values),
+  );
+}

@@ -1,0 +1,18 @@
+$utilities: (
+  "mt": (
+    property: margin-top,
+    values: $spacers,
+  ),
+  "mb": (
+    property: margin-bottom,
+    values: $spacers,
+  ),
+  "ms": (
+    property: margin-left,
+    values: map-merge($spacers, (auto: auto)),
+  ),
+  "me": (
+    property: margin-right,
+    values: $spacers,
+  ),
+);
