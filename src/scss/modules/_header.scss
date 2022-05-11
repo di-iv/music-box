@@ -20,3 +20,9 @@
     }
   }
 }
+
+@include media-breakpoint-down(mobile) {
+  .header-link {
+    font-weight: bold;
+  }
+}

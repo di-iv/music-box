@@ -14,3 +14,13 @@
     border-radius: 3px;
   }
 }
+
+@include media-breakpoint-down(mobile) {
+  .subscribe-input {
+    max-width: 100%;
+
+    &:first-child {
+      margin-bottom: 24px;
+    }
+  }
+}

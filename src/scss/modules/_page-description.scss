@@ -10,3 +10,9 @@
     background-size: cover;
   }
 }
+
+@include media-breakpoint-down(mobile) {
+  .page-description {
+    padding-top: 250px;
+  }
+}
