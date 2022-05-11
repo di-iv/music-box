@@ -19,6 +19,10 @@
   color: $white;
 }
 
+.w-24px {
+  width: 24px;
+}
+
 @include media-breakpoint-down(laptop) {
   .container {
     padding: 0 20px;

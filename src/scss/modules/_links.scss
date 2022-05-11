@@ -1,0 +1,14 @@
+.link {
+  transition: color 0.3s;
+
+  &:hover,
+  &-active {
+    color: $white;
+  }
+}
+
+@include media-breakpoint-down(mobile) {
+  .link-header {
+    font-weight: bold;
+  }
+}
