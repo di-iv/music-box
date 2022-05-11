@@ -1,6 +1,6 @@
 body {
   color: $main-text-color;
-  font-size: 18px;
+  font-size: 16px;
   font-family: Roboto, sans-serif;
   line-height: 1.5;
 
@@ -19,27 +19,6 @@ h2 {
   font-weight: bold;
   font-size: 38px;
   text-transform: uppercase;
-}
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.d-flex {
-  display: flex;
-}
-
-.align-center {
-  align-items: center;
-}
-
-.justify-content {
-  justify-content: center;
-}
-
-.text-white {
-  color: $white;
 }
 
 @include media-breakpoint-down(mobile) {
