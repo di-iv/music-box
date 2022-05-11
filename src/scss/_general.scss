@@ -40,7 +40,7 @@ h2 {
   color: $white;
 }
 
-@media (max-width: 770px) {
+@include media-breakpoint-down(mobile) {
   h1 {
     font-size: 30px;
   }
