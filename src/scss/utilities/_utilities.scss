@@ -20,9 +20,13 @@ $utilities: (
     values: (100: 100px),
     responsive: mobile,
   ),
+  "pb": (
+    property: padding-bottom,
+    values: (100: 100px),
+  ),
   "flex": (
     property: flex-direction,
-    values: column,
+    values: (column, column-reverse),
     responsive: (mobile, laptop)
   ),
 );
