@@ -2,6 +2,7 @@
   width: 100%;
 
   color: $white;
+  text-align: center;
   text-transform: uppercase;
 
   border-radius: 5px;
@@ -18,5 +19,16 @@
     padding: 20px 30px;
 
     outline: 1px solid $white;
+  }
+
+  &-grey-outline {
+    display: block;
+    width: fit-content;
+    padding: 16px 30px;
+
+    color: $grey;
+    font-size: 12px;
+
+    outline: 1px solid $grey;
   }
 }
