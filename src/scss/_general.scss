@@ -27,6 +27,12 @@ h3 {
   font-size: 24px;
 }
 
+hr {
+  height: 2px;
+
+  background-color: $grey;
+}
+
 @include media-breakpoint-down(mobile) {
   h1 {
     font-size: 30px;
