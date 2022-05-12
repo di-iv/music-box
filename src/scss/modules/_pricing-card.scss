@@ -1,0 +1,57 @@
+.pricing-card {
+  width: 366px;
+  padding: 24px 24px 64px;
+
+  text-align: center;
+
+  border-radius: 16px;
+
+  &-free {
+    background-image: url("../images/subscribe_1.png");
+    background-size: cover;
+  }
+
+  &-standard {
+    background-image: url("../images/subscribe_2.png");
+    background-size: cover;
+  }
+
+  &-premium {
+    background-image: url("../images/subscribe_3.png");
+    background-size: cover;
+  }
+
+  &-title {
+    margin-bottom: 200px;
+  }
+
+  &-value {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+
+    color: $white;
+    font-size: 64px;
+    line-height: 1;
+    column-gap: 16px;
+  }
+
+  &-currency {
+    color: $white;
+    font-size: 32px;
+    line-height: 1.5;
+    text-transform: uppercase;
+  }
+
+  &-footer {
+    color: $white;
+    font-size: 13px;
+  }
+}
+
+@include media-breakpoint-down(mobile) {
+  .pricing-card-title {
+    font-weight: bold;
+    font-size: 16px;
+  }
+}
