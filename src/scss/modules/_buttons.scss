@@ -14,6 +14,15 @@
     background-color: $green;
   }
 
+  &-brown {
+    display: block;
+    width: fit-content;
+    padding: 17px 40px;
+
+    background-color: $brown;
+    border-radius: 32px;
+  }
+
   &-white-outline {
     display: block;
     padding: 20px 30px;
