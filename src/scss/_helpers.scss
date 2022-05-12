@@ -15,6 +15,10 @@
   justify-content: center;
 }
 
+.justify-space-betweeen {
+  justify-content: space-between;
+}
+
 .flex-wrap {
   flex-wrap: wrap;
 }
@@ -39,9 +43,22 @@
   text-align: center;
 }
 
+.mw-600px {
+  max-width: 600px;
+}
+
+.mx-auto {
+  margin-right: auto;
+  margin-left: auto;
+}
+
 @include media-breakpoint-down(laptop) {
   .container {
     padding: 0 20px;
+  }
+
+  .mb-laptop-16 {
+    margin-bottom: 16px;
   }
 }
 
