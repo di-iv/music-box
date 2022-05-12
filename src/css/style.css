@@ -94,6 +94,10 @@ h3 {
   justify-content: center;
 }
 
+.justify-space-betweeen {
+  justify-content: space-between;
+}
+
 .flex-wrap {
   flex-wrap: wrap;
 }
@@ -118,9 +122,22 @@ h3 {
   text-align: center;
 }
 
+.mw-600px {
+  max-width: 600px;
+}
+
+.mx-auto {
+  margin-right: auto;
+  margin-left: auto;
+}
+
 @media (max-width: 1240px) {
   .container {
     padding: 0 20px;
+  }
+
+  .mb-laptop-16 {
+    margin-bottom: 16px;
   }
 }
 
@@ -231,6 +248,15 @@ header {
   padding: 20px 30px;
 
   background-color: #34c176;
+}
+
+.btn-brown {
+  display: block;
+  width: fit-content;
+  padding: 17px 40px;
+
+  background-color: #95390c;
+  border-radius: 32px;
 }
 
 .btn-white-outline {
@@ -598,14 +624,8 @@ header {
   padding-top: 100px;
 }
 
-@media (max-width: 770px) {
-  .pt-mobile-110 {
-    padding-top: 110px;
-  }
-}
-
-.pt-110 {
-  padding-top: 110px;
+.pb-100 {
+  padding-bottom: 100px;
 }
 
 @media (max-width: 770px) {
@@ -622,4 +642,20 @@ header {
 
 .flex-column {
   flex-direction: column;
+}
+
+@media (max-width: 770px) {
+  .flex-mobile-column-reverse {
+    flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 1240px) {
+  .flex-laptop-column-reverse {
+    flex-direction: column-reverse;
+  }
+}
+
+.flex-column-reverse {
+  flex-direction: column-reverse;
 }
