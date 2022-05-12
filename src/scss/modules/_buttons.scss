@@ -12,4 +12,11 @@
 
     background-color: $green;
   }
+
+  &-white-outline {
+    display: block;
+    padding: 20px 30px;
+
+    outline: 1px solid $white;
+  }
 }
