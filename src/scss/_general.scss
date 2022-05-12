@@ -7,18 +7,24 @@ body {
   background-color: $main-bg-color;
 }
 
-h1 {
+h1,
+h2,
+h3 {
   color: $white;
-  font-weight: bold;
-  font-size: 60px;
   text-transform: uppercase;
 }
 
+h1 {
+  font-size: 60px;
+}
+
 h2 {
-  color: $white;
-  font-weight: bold;
   font-size: 38px;
-  text-transform: uppercase;
+}
+
+h3 {
+  font-weight: normal;
+  font-size: 24px;
 }
 
 @include media-breakpoint-down(mobile) {
