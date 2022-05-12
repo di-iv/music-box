@@ -12,17 +12,20 @@
 
 @mixin utility($name, $property, $breakpoints, $values) {
   @each $value in $values {
-    @if $breakpoints {
-      @each $breakpoint in $breakpoints {
-        @include media-breakpoint-down($breakpoint) {
+    .#{$name}-#{get-value-from-type($value, name)} {
+      #{$property}: #{get-value-from-type($value)};
+    }
+  }
+
+  @if $breakpoints {
+    @each $breakpoint in $breakpoints {
+      @include media-breakpoint-down($breakpoint) {
+        @each $value in $values {
           .#{$name}-#{$breakpoint}-#{get-value-from-type($value, name)} {
             #{$property}: #{get-value-from-type($value)};
           }
         }
       }
-    }
-    .#{$name}-#{get-value-from-type($value, name)} {
-      #{$property}: #{get-value-from-type($value)};
     }
   }
 }
