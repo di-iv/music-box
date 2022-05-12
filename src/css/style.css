@@ -102,6 +102,10 @@ h3 {
   gap: 50px;
 }
 
+.gap-65 {
+  gap: 65px;
+}
+
 .text-white {
   color: #fff;
 }
@@ -216,6 +220,7 @@ header {
   width: 100%;
 
   color: #fff;
+  text-align: center;
   text-transform: uppercase;
 
   border-radius: 5px;
@@ -233,6 +238,17 @@ header {
   padding: 20px 30px;
 
   outline: 1px solid #fff;
+}
+
+.btn-grey-outline {
+  display: block;
+  width: fit-content;
+  padding: 16px 30px;
+
+  color: #cacaca;
+  font-size: 12px;
+
+  outline: 1px solid #cacaca;
 }
 
 .link {
@@ -304,6 +320,58 @@ header {
 @media (max-width: 770px) {
   .pricing-card-title {
     font-weight: bold;
+    font-size: 16px;
+  }
+}
+
+.news-card {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.news-card-reverse {
+  flex-direction: row-reverse;
+}
+
+.news-card-image,
+.news-card-info {
+  width: 100%;
+  max-width: 575px;
+}
+
+.news-card-title {
+  margin-bottom: 30px;
+
+  font-size: 30px;
+  text-transform: capitalize;
+}
+
+.news-card-description {
+  margin-bottom: 24px;
+}
+
+.news-card-author {
+  display: flex;
+  margin-bottom: 48px;
+
+  font-size: 12px;
+  column-gap: 16px;
+}
+
+.news-card-author-name {
+  color: #f89202;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1240px) {
+  .news-card {
+    flex-direction: column;
+  }
+
+  .news-card-title {
+    margin-bottom: 16px;
+
     font-size: 16px;
   }
 }
