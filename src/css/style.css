@@ -67,6 +67,13 @@ h3 {
   font-size: 24px;
 }
 
+hr {
+  height: 2px;
+
+  background-color: #cacaca;
+  border: none;
+}
+
 @media (max-width: 770px) {
   h1 {
     font-size: 30px;
@@ -80,6 +87,10 @@ h3 {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.bg-gradient {
+  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 }
 
 .d-flex {
@@ -102,6 +113,18 @@ h3 {
   flex-wrap: wrap;
 }
 
+.gap-16 {
+  gap: 16px;
+}
+
+.gap-24 {
+  gap: 24px;
+}
+
+.gap-40 {
+  gap: 40px;
+}
+
 .gap-50 {
   gap: 50px;
 }
@@ -114,8 +137,16 @@ h3 {
   color: #fff;
 }
 
+.text-light-grey {
+  color: #e0e0e0;
+}
+
 .w-24px {
   width: 24px;
+}
+
+.w-270px {
+  width: 270px;
 }
 
 .text-center {
@@ -131,9 +162,34 @@ h3 {
   margin-left: auto;
 }
 
+.fs-18 {
+  font-size: 18px;
+}
+
+.pb-72 {
+  padding-bottom: 72px;
+}
+
+.pt-40 {
+  padding-top: 40px;
+}
+
+.pb-50 {
+  padding-bottom: 50px;
+}
+
+.visibility-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
 @media (max-width: 1240px) {
   .container {
-    padding: 0 20px;
+    padding-right: 20px;
+    padding-left: 20px;
   }
 
   .mb-laptop-16 {
@@ -156,6 +212,10 @@ h3 {
 
   .mb-mobile-16 {
     margin-bottom: 16px;
+  }
+
+  .gap-mobile-30 {
+    gap: 30px;
   }
 }
 
@@ -614,23 +674,43 @@ header {
   margin-right: 100px;
 }
 
-@media (max-width: 770px) {
-  .pt-mobile-100 {
-    padding-top: 100px;
-  }
+.pt-62 {
+  padding-top: 62px;
 }
 
 .pt-100 {
   padding-top: 100px;
 }
 
+@media (max-width: 770px) {
+  .pt-mobile-62 {
+    padding-top: 62px;
+  }
+
+  .pt-mobile-100 {
+    padding-top: 100px;
+  }
+}
+
 .pb-100 {
   padding-bottom: 100px;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-column-reverse {
+  flex-direction: column-reverse;
 }
 
 @media (max-width: 770px) {
   .flex-mobile-column {
     flex-direction: column;
+  }
+
+  .flex-mobile-column-reverse {
+    flex-direction: column-reverse;
   }
 }
 
@@ -638,24 +718,8 @@ header {
   .flex-laptop-column {
     flex-direction: column;
   }
-}
 
-.flex-column {
-  flex-direction: column;
-}
-
-@media (max-width: 770px) {
-  .flex-mobile-column-reverse {
-    flex-direction: column-reverse;
-  }
-}
-
-@media (max-width: 1240px) {
   .flex-laptop-column-reverse {
     flex-direction: column-reverse;
   }
-}
-
-.flex-column-reverse {
-  flex-direction: column-reverse;
 }
