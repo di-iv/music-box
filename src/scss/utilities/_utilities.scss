@@ -15,4 +15,14 @@ $utilities: (
     property: margin-right,
     values: $spacers,
   ),
+  "pt": (
+    property: padding-top,
+    values: (100: 100px, 110: 110px),
+    responsive: mobile,
+  ),
+  "flex": (
+    property: flex-direction,
+    values: column,
+    responsive: (mobile, laptop)
+  ),
 );
