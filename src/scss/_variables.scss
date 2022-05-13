@@ -9,6 +9,14 @@ $purple: #5328a1;
 $brown: #95390c;
 $main-text-color: $grey;
 $main-bg-color: $black;
+$btn-colors: (
+  green: $green,
+  brown: $brown,
+);
+$btn-outline-colors: (
+  white: $white,
+  grey: $grey,
+);
 $spacers: (
   0: 0,
   15: 15px,

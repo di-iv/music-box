@@ -1,43 +1,51 @@
-.btn {
-  width: 100%;
+@mixin btn-bg($color-name, $color, $text-color: $white) {
+  .btn-#{$color-name} {
+    color: $text-color;
 
-  color: $white;
+    background-color: $color;
+  }
+}
+
+@mixin btn-outline($color-name, $color) {
+  .btn-#{$color-name}-outline {
+    color: $color;
+
+    outline: 1px solid $color;
+  }
+}
+
+.btn {
+  display: inline-block;
+  padding: 20px 30px;
+
   text-align: center;
   text-transform: uppercase;
 
   border-radius: 5px;
+
   cursor: pointer;
 
-  &-green {
-    padding: 20px 30px;
-
-    background-color: $green;
-  }
-
-  &-brown {
-    display: block;
-    width: fit-content;
-    padding: 17px 40px;
-
-    background-color: $brown;
+  &-rounded-pill {
     border-radius: 32px;
   }
 
-  &-white-outline {
-    display: block;
-    padding: 20px 30px;
-
-    outline: 1px solid $white;
-  }
-
-  &-grey-outline {
-    display: block;
-    width: fit-content;
+  &-small {
     padding: 16px 30px;
-
-    color: $grey;
-    font-size: 12px;
-
-    outline: 1px solid $grey;
   }
+
+  &-small-wide {
+    padding: 17px 40px;
+  }
+
+  &-w-100 {
+    width: 100%;
+  }
+}
+
+@each $color-name, $color in $btn-colors {
+  @include btn-bg($color-name, $color);
+}
+
+@each $color-name, $color in $btn-outline-colors {
+  @include btn-outline($color-name, $color);
 }
