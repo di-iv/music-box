@@ -24,6 +24,11 @@ $utilities: (
     property: padding-bottom,
     values: $pb-values,
   ),
+  "pb-mobile": (
+    property: padding-bottom,
+    values: (69: 69px),
+    responsive: mobile,
+  ),
   "flex": (
     property: flex-direction,
     values: (column, column-reverse),
