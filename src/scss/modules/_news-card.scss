@@ -1,11 +1,6 @@
 .news-card {
   display: flex;
   gap: 50px;
-  align-items: center;
-
-  &-reverse {
-    flex-direction: row-reverse;
-  }
 
   &-image,
   &-info {
@@ -34,6 +29,14 @@
     &-name {
       color: $orange;
       text-transform: uppercase;
+    }
+  }
+
+  &-reverse {
+    flex-direction: row-reverse;
+
+    .news-card-description {
+      margin-bottom: 15px;
     }
   }
 }

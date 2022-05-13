@@ -184,7 +184,7 @@ header {
 }
 
 .btn-small {
-  padding: 16px 30px;
+  padding: 20px 31px 15px;
 }
 
 .btn-small-wide {
@@ -314,11 +314,6 @@ header {
 .news-card {
   display: flex;
   gap: 50px;
-  align-items: center;
-}
-
-.news-card-reverse {
-  flex-direction: row-reverse;
 }
 
 .news-card-image,
@@ -349,6 +344,14 @@ header {
 .news-card-author-name {
   color: #f89202;
   text-transform: uppercase;
+}
+
+.news-card-reverse {
+  flex-direction: row-reverse;
+}
+
+.news-card-reverse .news-card-description {
+  margin-bottom: 15px;
 }
 
 @media (max-width: 1240px) {
