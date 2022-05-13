@@ -9,4 +9,4 @@ lint-style-fix:
 	 npx stylelint src/scss/*.scss --fix
 
 deploy:
-	npx surge ./src/
+	npx surge ./src/ --domain unaccountable-nose.surge.sh
