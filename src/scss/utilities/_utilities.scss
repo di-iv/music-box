@@ -37,6 +37,11 @@ $utilities: (
     property: gap,
     values: $gaps,
   ),
+  "gap-mobile": (
+    property: gap,
+    values: (30: 30px),
+    responsive: mobile,
+  ),
   "text": (
     property: color,
     values: $text-colors,
