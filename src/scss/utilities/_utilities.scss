@@ -3,6 +3,11 @@ $utilities: (
     property: margin-top,
     values: $spacers,
   ),
+  "mt-mobile": (
+    property: margin-top,
+    values: (18px: "-18px"),
+    responsive: mobile,
+  ),
   "mb": (
     property: margin-bottom,
     values: $spacers,
@@ -16,9 +21,19 @@ $utilities: (
     property: margin-left,
     values: map-merge($spacers, (auto: auto)),
   ),
+  "ms-mobile": (
+    property: margin-left,
+    values: 0,
+    responsive: mobile,
+  ),
   "me": (
     property: margin-right,
     values: $spacers,
+  ),
+  "me-mobile": (
+    property: margin-right,
+    values: 0,
+    responsive: mobile,
   ),
   "pt": (
     property: padding-top,
