@@ -1,0 +1,30 @@
+.similar-artist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &-image {
+    margin-bottom: 17px;
+  }
+
+  &-name {
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: capitalize;
+  }
+
+  &-followers {
+    color: $light-grey;
+    text-align: center;
+  }
+}
+
+@include media-breakpoint-down(mobile) {
+  .similar-artist {
+    width: 137px;
+
+    &-image {
+      width: 100%;
+    }
+  }
+}
