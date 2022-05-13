@@ -476,6 +476,106 @@ header {
   }
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.bg-gradient {
+  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+}
+
+.d-flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-space-betweeen {
+  justify-content: space-between;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mw-600px {
+  max-width: 600px;
+}
+
+.mx-auto {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.visibility-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.column-gap-50 {
+  column-gap: 50px;
+}
+
+.row-gap-25 {
+  row-gap: 25px;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+@media (max-width: 1240px) {
+  .container {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .mb-laptop-16 {
+    margin-bottom: 16px;
+  }
+}
+
+@media (max-width: 770px) {
+  .flex-align-mobile-start {
+    align-items: flex-start;
+  }
+
+  .ms-mobile-0 {
+    margin-left: 0;
+  }
+
+  .mb-mobile-18 {
+    margin-bottom: 18px;
+  }
+
+  .mb-mobile-16 {
+    margin-bottom: 16px;
+  }
+
+  .py-mobile-0 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .gap-mobile-30 {
+    gap: 30px;
+  }
+}
+
 .mt-0 {
   margin-top: 0;
 }
@@ -688,6 +788,10 @@ header {
   margin-right: 100px;
 }
 
+.pt-16 {
+  padding-top: 16px;
+}
+
 .pt-40 {
   padding-top: 40px;
 }
@@ -705,6 +809,10 @@ header {
 }
 
 @media (max-width: 770px) {
+  .pt-mobile-16 {
+    padding-top: 16px;
+  }
+
   .pt-mobile-40 {
     padding-top: 40px;
   }
@@ -766,6 +874,10 @@ header {
   font-size: 12px;
 }
 
+.fs-13 {
+  font-size: 13px;
+}
+
 .fs-18 {
   font-size: 18px;
 }
@@ -808,100 +920,4 @@ header {
 
 .w-270px {
   width: 270px;
-}
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.bg-gradient {
-  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
-}
-
-.d-flex {
-  display: flex;
-}
-
-.align-center {
-  align-items: center;
-}
-
-.justify-center {
-  justify-content: center;
-}
-
-.justify-space-betweeen {
-  justify-content: space-between;
-}
-
-.flex-wrap {
-  flex-wrap: wrap;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.mw-600px {
-  max-width: 600px;
-}
-
-.mx-auto {
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.visibility-hidden {
-  position: absolute;
-
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-}
-
-.column-gap-50 {
-  column-gap: 50px;
-}
-
-.row-gap-25 {
-  row-gap: 25px;
-}
-
-@media (max-width: 1240px) {
-  .container {
-    padding-right: 20px;
-    padding-left: 20px;
-  }
-
-  .mb-laptop-16 {
-    margin-bottom: 16px;
-  }
-}
-
-@media (max-width: 770px) {
-  .flex-align-mobile-start {
-    align-items: flex-start;
-  }
-
-  .ms-mobile-0 {
-    margin-left: 0;
-  }
-
-  .mb-mobile-18 {
-    margin-bottom: 18px;
-  }
-
-  .mb-mobile-16 {
-    margin-bottom: 16px;
-  }
-
-  .py-mobile-0 {
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-
-  .gap-mobile-30 {
-    gap: 30px;
-  }
 }

@@ -56,6 +56,10 @@
   row-gap: 25px;
 }
 
+.text-capitalize {
+  text-transform: capitalize;
+}
+
 @include media-breakpoint-down(laptop) {
   .container {
     padding-right: 20px;
