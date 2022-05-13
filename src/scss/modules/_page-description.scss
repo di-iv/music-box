@@ -9,10 +9,21 @@
     background-position: center;
     background-size: cover;
   }
+
+  &-artist {
+    background-image: url("../images/Morten Harket.png");
+    background-position: center;
+    background-size: cover;
+  }
 }
 
 @include media-breakpoint-down(mobile) {
-  .page-description {
+  .page-description-main {
     padding-top: 250px;
+  }
+
+  .page-description-artist {
+    padding-top: 225px;
+    padding-bottom: 225px;
   }
 }
