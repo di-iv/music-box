@@ -34,6 +34,10 @@ hr {
   border: none;
 }
 
+a {
+  color: $main-text-color;
+}
+
 @include media-breakpoint-down(mobile) {
   h1 {
     font-size: 30px;
