@@ -937,3 +937,13 @@ header {
 .w-270px {
   width: 270px;
 }
+
+.w-mobile-100 {
+  width: 100%;
+}
+
+@media (max-width: 770px) {
+  .w-mobile-mobile-100 {
+    width: 100%;
+  }
+}

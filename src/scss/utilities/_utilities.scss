@@ -54,5 +54,10 @@ $utilities: (
   "w": (
     property: width,
     values: $width-values,
+  ),
+  "w-mobile": (
+    property: width,
+    values: (100: 100%),
+    responsive: mobile,
   )
 );
