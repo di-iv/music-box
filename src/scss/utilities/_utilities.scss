@@ -7,6 +7,11 @@ $utilities: (
     property: margin-bottom,
     values: $spacers,
   ),
+  "mb-mobile": (
+    property: margin-bottom,
+    values: (16: 16px, 24: 24px),
+    responsive: mobile,
+  ),
   "ms": (
     property: margin-left,
     values: map-merge($spacers, (auto: auto)),
