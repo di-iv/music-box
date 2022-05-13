@@ -48,6 +48,14 @@
   overflow: hidden;
 }
 
+.column-gap-50 {
+  column-gap: 50px;
+}
+
+.row-gap-25 {
+  row-gap: 25px;
+}
+
 @include media-breakpoint-down(laptop) {
   .container {
     padding-right: 20px;
