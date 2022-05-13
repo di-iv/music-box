@@ -20,8 +20,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-
-  color: #cacaca;
 }
 
 ul {
@@ -72,6 +70,10 @@ hr {
 
   background-color: #cacaca;
   border: none;
+}
+
+a {
+  color: #cacaca;
 }
 
 @media (max-width: 770px) {
@@ -126,7 +128,7 @@ header {
 }
 
 .page-description-artist {
-  background-image: url("../images/Morten Harket.png");
+  background-image: url("../images/Morten%20Harket.png");
   background-position: center;
   background-size: cover;
 }
@@ -361,6 +363,54 @@ header {
     margin-bottom: 16px;
 
     font-size: 16px;
+  }
+}
+
+.track {
+  display: flex;
+  width: 100%;
+  max-width: 550px;
+
+  column-gap: 15px;
+}
+
+.track-image {
+  width: 55px;
+  height: 55px;
+}
+
+.track-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+
+  color: #e0e0e0;
+}
+
+.track-name,
+.track-author,
+.track-duration {
+  font-size: 12.8px;
+}
+
+.track-name {
+  font-weight: bold;
+}
+
+.track-duration {
+  margin-left: auto;
+}
+
+@media (max-width: 1240px) {
+  .track {
+    width: 46%;
+  }
+}
+
+@media (max-width: 770px) {
+  .track {
+    width: 100%;
   }
 }
 
@@ -746,6 +796,14 @@ header {
   width: 1px;
   height: 1px;
   overflow: hidden;
+}
+
+.column-gap-50 {
+  column-gap: 50px;
+}
+
+.row-gap-25 {
+  row-gap: 25px;
 }
 
 @media (max-width: 1240px) {

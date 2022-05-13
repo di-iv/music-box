@@ -1,0 +1,47 @@
+.track {
+  display: flex;
+  width: 100%;
+  max-width: 550px;
+
+  column-gap: 15px;
+
+  &-image {
+    width: 55px;
+    height: 55px;
+  }
+
+  &-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+    color: $light-grey;
+  }
+
+  &-name,
+  &-author,
+  &-duration {
+    font-size: 12.8px;
+  }
+
+  &-name {
+    font-weight: bold;
+  }
+
+  &-duration {
+    margin-left: auto;
+  }
+}
+
+@include media-breakpoint-down(laptop) {
+  .track {
+    width: 46%;
+  }
+}
+
+@include media-breakpoint-down(mobile) {
+  .track {
+    width: 100%;
+  }
+}
