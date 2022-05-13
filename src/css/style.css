@@ -3,16 +3,19 @@
   font-family: Roboto;
   src: url("../fonts/Roboto-Regular.ttf");
 }
+
 @font-face {
   font-weight: 500;
   font-family: Roboto;
   src: url("../fonts/Roboto-Medium.ttf");
 }
+
 @font-face {
   font-weight: 700;
   font-family: Roboto;
   src: url("../fonts/Roboto-Bold.ttf");
 }
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -39,6 +42,7 @@ body {
   font-size: 16px;
   font-family: Roboto, sans-serif;
   line-height: 1.5;
+
   background-color: #08020d;
 }
 
@@ -64,6 +68,7 @@ h3 {
 
 hr {
   height: 2px;
+
   background-color: #cacaca;
   border: none;
 }
@@ -77,11 +82,13 @@ hr {
     font-size: 18px;
   }
 }
+
 header {
   position: absolute;
   top: 25px;
   right: 0;
   left: 0;
+
   font-size: 11px;
   text-transform: uppercase;
 }
@@ -90,8 +97,10 @@ header {
   width: 248px;
   height: 25px;
   padding: 5px 10px;
+
   font-size: 13.3px;
   text-transform: uppercase;
+
   background-color: #3c3b3d;
   border-radius: 50px;
 }
@@ -101,16 +110,20 @@ header {
     width: 100%;
   }
 }
+
 .page-description {
   padding-top: 200px;
   padding-bottom: 200px;
 }
+
 .page-description-main {
   text-align: center;
+
   background-image: url("../images/banner.png");
   background-position: center;
   background-size: cover;
 }
+
 .page-description-artist {
   background-image: url("../images/Morten%20Harket.png");
   background-position: center;
@@ -127,15 +140,19 @@ header {
     padding-bottom: 225px;
   }
 }
+
 .subscribe {
   max-width: 570px;
   margin: 0 auto;
 }
+
 .subscribe-input {
   width: 100%;
   max-width: 270px;
   padding: 16px 22px;
+
   color: #fff;
+
   background-color: transparent;
   border: 2px solid #cacaca;
   border-radius: 3px;
@@ -145,70 +162,88 @@ header {
   .subscribe-input {
     max-width: 100%;
   }
+
   .subscribe-input:first-child {
     margin-bottom: 24px;
   }
 }
+
 .btn {
   display: inline-block;
   padding: 20px 30px;
+
   text-align: center;
   text-transform: uppercase;
+
   border-radius: 5px;
   cursor: pointer;
 }
+
 .btn-rounded-pill {
   border-radius: 32px;
 }
+
 .btn-small {
   padding: 20px 31px 15px;
 }
+
 .btn-small-wide {
   padding: 17px 40px;
 }
+
 .btn-w-100 {
   width: 100%;
 }
+
 .btn-icon {
   display: flex;
   align-items: center;
   width: 200px;
   height: 62px;
+
   column-gap: 16px;
 }
+
 .btn-icon .icon {
   width: 20px;
 }
 
 .btn-green {
   color: #fff;
+
   background-color: #34c176;
 }
 
 .btn-brown {
   color: #fff;
+
   background-color: #95390c;
 }
 
 .btn-purple {
   color: #fff;
+
   background-color: #5328a1;
 }
 
 .btn-white-outline {
   color: #fff;
+
   outline: 1px solid #fff;
 }
 
 .btn-grey-outline {
   color: #cacaca;
+
   outline: 1px solid #cacaca;
 }
 
 .link {
   transition: color 0.3s;
 }
-.link:hover, .link-active {
+
+.link:hover,
+.link-active {
   color: #fff;
 }
 
@@ -217,82 +252,108 @@ header {
     font-weight: bold;
   }
 }
+
 .pricing-card {
   width: 366px;
   padding: 25px 25px 64px;
+
   text-align: center;
+
   border-radius: 16px;
 }
+
 .pricing-card-free {
   background-image: url("../images/subscribe_1.png");
   background-size: cover;
 }
+
 .pricing-card-standard {
   background-image: url("../images/subscribe_2.png");
   background-size: cover;
 }
+
 .pricing-card-premium {
   background-image: url("../images/subscribe_3.png");
   background-size: cover;
 }
+
 .pricing-card-title {
   margin-bottom: 200px;
 }
+
 .pricing-card-value {
   display: flex;
   justify-content: center;
   margin-bottom: 40px;
+
   color: #fff;
   font-size: 64px;
   line-height: 1;
   column-gap: 16px;
 }
+
 .pricing-card-currency {
   color: #fff;
   font-size: 32px;
   line-height: 1.5;
   text-transform: uppercase;
 }
+
 .pricing-card-footer {
   color: #fff;
   font-size: 13px;
 }
 
 @media (max-width: 770px) {
+  .pricing-card {
+    width: 374px;
+    padding: 17px 23px 64px;
+  }
+
   .pricing-card-title {
-    font-weight: bold;
-    font-size: 16px;
+    font-size: 15px;
   }
 }
+
 .news-card {
   display: flex;
   gap: 50px;
 }
-.news-card-image, .news-card-info {
+
+.news-card-image,
+.news-card-info {
   width: 100%;
   max-width: 575px;
 }
+
 .news-card-title {
   margin-bottom: 30px;
+
   font-size: 30px;
   text-transform: capitalize;
 }
+
 .news-card-description {
   margin-bottom: 24px;
 }
+
 .news-card-author {
   display: flex;
   margin-bottom: 48px;
+
   font-size: 12px;
   column-gap: 16px;
 }
+
 .news-card-author-name {
   color: #f89202;
   text-transform: uppercase;
 }
+
 .news-card-reverse {
   flex-direction: row-reverse;
 }
+
 .news-card-reverse .news-card-description {
   margin-bottom: 15px;
 }
@@ -301,34 +362,46 @@ header {
   .news-card {
     flex-direction: column;
   }
+
   .news-card-title {
     margin-bottom: 16px;
+
     font-size: 16px;
   }
 }
+
 .track {
   display: flex;
   width: 100%;
   max-width: 550px;
+
   column-gap: 15px;
 }
+
 .track-image {
   width: 55px;
   height: 55px;
 }
+
 .track-info {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
+
   color: #e0e0e0;
 }
-.track-name, .track-author, .track-duration {
+
+.track-name,
+.track-author,
+.track-duration {
   font-size: 12.8px;
 }
+
 .track-name {
   font-weight: bold;
 }
+
 .track-duration {
   margin-left: auto;
 }
@@ -338,24 +411,29 @@ header {
     width: 46%;
   }
 }
+
 @media (max-width: 770px) {
   .track {
     width: 100%;
   }
 }
+
 .album {
   width: 250px;
 }
+
 .album-image {
   width: 250px;
   height: 250px;
   margin-bottom: 12px;
 }
+
 .album-name {
   font-weight: bold;
   font-size: 17.8px;
   text-transform: capitalize;
 }
+
 .album-year {
   color: #e0e0e0;
 }
@@ -364,25 +442,32 @@ header {
   .album {
     width: 137px;
   }
+
   .album-image {
     width: 137px;
     height: 137px;
   }
 }
+
 .similar-artist {
   display: flex;
   flex-direction: column;
+
   text-align: center;
 }
+
 .similar-artist-image {
   margin-bottom: 17px;
 }
+
 .similar-artist-name {
   margin-bottom: 1px;
+
   font-weight: bold;
   font-size: 18px;
   text-transform: capitalize;
 }
+
 .similar-artist-followers {
   color: #e0e0e0;
   text-align: center;
@@ -392,10 +477,12 @@ header {
   .similar-artist {
     width: 137px;
   }
+
   .similar-artist-image {
     width: 100%;
   }
 }
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -442,6 +529,7 @@ header {
 
 .visibility-hidden {
   position: absolute;
+
   width: 1px;
   height: 1px;
   overflow: hidden;
@@ -464,6 +552,7 @@ header {
     margin-bottom: 16px;
   }
 }
+
 @media (max-width: 770px) {
   .flex-align-mobile-start {
     align-items: flex-start;
@@ -490,6 +579,7 @@ header {
     padding-bottom: 0;
   }
 }
+
 .mt-0 {
   margin-top: 0;
 }
@@ -611,6 +701,7 @@ header {
     margin-bottom: 24px;
   }
 }
+
 .ms-0 {
   margin-left: 0;
 }
@@ -760,6 +851,7 @@ header {
     padding-top: 100px;
   }
 }
+
 .pb-50 {
   padding-bottom: 50px;
 }
@@ -781,6 +873,7 @@ header {
     padding-bottom: 69px;
   }
 }
+
 .flex-column {
   flex-direction: column;
 }
@@ -798,6 +891,7 @@ header {
     flex-direction: column-reverse;
   }
 }
+
 @media (max-width: 1240px) {
   .flex-laptop-column {
     flex-direction: column;
@@ -807,6 +901,7 @@ header {
     flex-direction: column-reverse;
   }
 }
+
 .fs-12 {
   font-size: 12px;
 }
@@ -848,6 +943,7 @@ header {
     gap: 30px;
   }
 }
+
 .text-white {
   color: #fff;
 }
@@ -877,5 +973,3 @@ header {
     width: 100%;
   }
 }
-
-/*# sourceMappingURL=style.css.map */
