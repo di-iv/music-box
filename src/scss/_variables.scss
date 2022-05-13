@@ -37,3 +37,34 @@ $breakpoints: (
   mobile: 770px,
   laptop: 1240px,
 );
+$gaps: (
+  16: 16px,
+  24: 24px,
+  40: 40px,
+  50: 50px,
+  65: 65px,
+);
+$pt-values: (
+  40: 40px,
+  50: 50px,
+  62: 62px,
+  100: 100px,
+);
+$pb-values: (
+  50: 50px,
+  72: 72px,
+  100: 100px,
+);
+$fs-values: (
+  12: 12px,
+  18: 18px,
+);
+$text-colors: (
+  white: $white,
+  light-grey: $light-grey,
+  grey: $grey,
+);
+$width-values: (
+  24px: 24px,
+  270px: 270px,
+);

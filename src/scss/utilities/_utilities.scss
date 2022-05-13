@@ -17,16 +17,32 @@ $utilities: (
   ),
   "pt": (
     property: padding-top,
-    values: (62: 62px, 100: 100px),
+    values: $pt-values,
     responsive: mobile,
   ),
   "pb": (
     property: padding-bottom,
-    values: (100: 100px),
+    values: $pb-values,
   ),
   "flex": (
     property: flex-direction,
     values: (column, column-reverse),
     responsive: (mobile, laptop)
   ),
+  "fs": (
+    property: font-size,
+    values: $fs-values,
+  ),
+  "gap": (
+    property: gap,
+    values: $gaps,
+  ),
+  "text": (
+    property: color,
+    values: $text-colors,
+  ),
+  "w": (
+    property: width,
+    values: $width-values,
+  )
 );

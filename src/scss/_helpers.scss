@@ -27,42 +27,6 @@
   flex-wrap: wrap;
 }
 
-.gap-16 {
-  gap: 16px;
-}
-
-.gap-24 {
-  gap: 24px;
-}
-
-.gap-40 {
-  gap: 40px;
-}
-
-.gap-50 {
-  gap: 50px;
-}
-
-.gap-65 {
-  gap: 65px;
-}
-
-.text-white {
-  color: $white;
-}
-
-.text-light-grey {
-  color: $light-grey;
-}
-
-.w-24px {
-  width: 24px;
-}
-
-.w-270px {
-  width: 270px;
-}
-
 .text-center {
   text-align: center;
 }
@@ -74,22 +38,6 @@
 .mx-auto {
   margin-right: auto;
   margin-left: auto;
-}
-
-.fs-18 {
-  font-size: 18px;
-}
-
-.pb-72 {
-  padding-bottom: 72px;
-}
-
-.pt-40 {
-  padding-top: 40px;
-}
-
-.pb-50 {
-  padding-bottom: 50px;
 }
 
 .visibility-hidden {
