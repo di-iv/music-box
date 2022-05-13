@@ -27,6 +27,7 @@ ul {
 }
 
 a {
+  color: #cacaca;
   text-decoration: none;
 }
 
@@ -70,10 +71,6 @@ hr {
 
   background-color: #cacaca;
   border: none;
-}
-
-a {
-  color: #cacaca;
 }
 
 @media (max-width: 770px) {
@@ -411,6 +408,37 @@ header {
 @media (max-width: 770px) {
   .track {
     width: 100%;
+  }
+}
+
+.album {
+  width: 250px;
+}
+
+.album-image {
+  width: 250px;
+  height: 250px;
+  margin-bottom: 18px;
+}
+
+.album-name {
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+.album-year {
+  color: #e0e0e0;
+}
+
+@media (max-width: 770px) {
+  .album {
+    width: 137px;
+  }
+
+  .album-image {
+    width: 137px;
+    height: 137px;
   }
 }
 

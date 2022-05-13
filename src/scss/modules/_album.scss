@@ -1,0 +1,30 @@
+.album {
+  width: 250px;
+
+  &-image {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 18px;
+  }
+
+  &-name {
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: capitalize;
+  }
+
+  &-year {
+    color: $light-grey;
+  }
+}
+
+@include media-breakpoint-down(mobile) {
+  .album {
+    width: 137px;
+
+    &-image {
+      width: 137px;
+      height: 137px;
+    }
+  }
+}
