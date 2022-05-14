@@ -545,6 +545,10 @@ header {
   row-gap: 25px;
 }
 
+.row-gap-16 {
+  row-gap: 16px;
+}
+
 .text-capitalize {
   text-transform: capitalize;
 }
