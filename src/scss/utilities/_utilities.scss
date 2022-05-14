@@ -40,13 +40,18 @@ $utilities: (
     values: $pt-values,
     responsive: mobile,
   ),
+  "pt-mobile": (
+    property: padding-top,
+    values: (0: 0),
+    responsive: mobile,
+  ),
   "pb": (
     property: padding-bottom,
     values: $pb-values,
   ),
   "pb-mobile": (
     property: padding-bottom,
-    values: (69: 69px),
+    values: (0: 0, 69: 69px),
     responsive: mobile,
   ),
   "flex": (

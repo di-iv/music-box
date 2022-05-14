@@ -892,6 +892,16 @@ header {
   }
 }
 
+.pt-mobile-0 {
+  padding-top: 0;
+}
+
+@media (max-width: 770px) {
+  .pt-mobile-mobile-0 {
+    padding-top: 0;
+  }
+}
+
 .pb-24 {
   padding-bottom: 24px;
 }
@@ -908,11 +918,19 @@ header {
   padding-bottom: 100px;
 }
 
+.pb-mobile-0 {
+  padding-bottom: 0;
+}
+
 .pb-mobile-69 {
   padding-bottom: 69px;
 }
 
 @media (max-width: 770px) {
+  .pb-mobile-mobile-0 {
+    padding-bottom: 0;
+  }
+
   .pb-mobile-mobile-69 {
     padding-bottom: 69px;
   }
