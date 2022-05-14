@@ -942,8 +942,8 @@ header {
   padding-bottom: 16px;
 }
 
-.pb-mobile-75 {
-  padding-bottom: 75px;
+.pb-mobile-72 {
+  padding-bottom: 72px;
 }
 
 @media (max-width: 770px) {
@@ -955,8 +955,8 @@ header {
     padding-bottom: 16px;
   }
 
-  .pb-mobile-mobile-75 {
-    padding-bottom: 75px;
+  .pb-mobile-mobile-72 {
+    padding-bottom: 72px;
   }
 }
 
