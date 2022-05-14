@@ -231,13 +231,13 @@ header {
 .btn-white-outline {
   color: #fff;
 
-  outline: 1px solid #fff;
+  border: 1px solid #fff;
 }
 
 .btn-grey-outline {
   color: #cacaca;
 
-  outline: 1px solid #cacaca;
+  border: 1px solid #cacaca;
 }
 
 .link {
