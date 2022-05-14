@@ -922,6 +922,10 @@ header {
   padding-bottom: 0;
 }
 
+.pb-mobile-16 {
+  padding-bottom: 16px;
+}
+
 .pb-mobile-69 {
   padding-bottom: 69px;
 }
@@ -929,6 +933,10 @@ header {
 @media (max-width: 770px) {
   .pb-mobile-mobile-0 {
     padding-bottom: 0;
+  }
+
+  .pb-mobile-mobile-16 {
+    padding-bottom: 16px;
   }
 
   .pb-mobile-mobile-69 {
