@@ -21,10 +21,6 @@
   justify-content: center;
 }
 
-.justify-space-betweeen {
-  justify-content: space-between;
-}
-
 .flex-wrap {
   flex-wrap: wrap;
 }
@@ -58,10 +54,6 @@
   row-gap: 25px;
 }
 
-.row-gap-16 {
-  row-gap: 16px;
-}
-
 .text-capitalize {
   text-transform: capitalize;
 }
@@ -74,36 +66,17 @@
   font-size: 12.8px;
 }
 
-@include media-breakpoint-down(laptop) {
-  .mb-laptop-16 {
-    margin-bottom: 16px;
-  }
-}
-
 @include media-breakpoint-down(mobile) {
   .flex-align-mobile-start {
     align-items: flex-start;
-  }
-
-  .ms-mobile-0 {
-    margin-left: 0;
   }
 
   .mb-mobile-18 {
     margin-bottom: 18px;
   }
 
-  .mb-mobile-16 {
-    margin-bottom: 16px;
-  }
-
   .mb-mobile-15 {
     margin-bottom: 15px;
-  }
-
-  .py-mobile-0 {
-    padding-top: 0;
-    padding-bottom: 0;
   }
 
   .pt-mobile-48 {

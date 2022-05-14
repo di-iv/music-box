@@ -1,13 +1,4 @@
 $utilities: (
-  "mt": (
-    property: margin-top,
-    values: $spacers,
-  ),
-  "mt-mobile": (
-    property: margin-top,
-    values: (18px: "-18px"),
-    responsive: mobile,
-  ),
   "mb": (
     property: margin-bottom,
     values: $spacers,
@@ -15,15 +6,6 @@ $utilities: (
   "mb-mobile": (
     property: margin-bottom,
     values: (16: 16px, 24: 24px),
-    responsive: mobile,
-  ),
-  "ms": (
-    property: margin-left,
-    values: map-merge($spacers, (auto: auto)),
-  ),
-  "ms-mobile": (
-    property: margin-left,
-    values: 0,
     responsive: mobile,
   ),
   "me": (
