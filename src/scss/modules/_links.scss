@@ -5,6 +5,10 @@
   &-active {
     color: $white;
   }
+
+  &-footer {
+    color: $light-grey;
+  }
 }
 
 @include media-breakpoint-down(mobile) {

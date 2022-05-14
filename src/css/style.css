@@ -127,7 +127,7 @@ header {
 }
 
 .page-description-artist {
-  background-image: url("../images/Morten%20Harket.png");
+  background-image: url("../images/Morten Harket.png");
   background-position: center;
   background-size: cover;
 }
@@ -237,6 +237,10 @@ header {
 .link:hover,
 .link-active {
   color: #fff;
+}
+
+.link-footer {
+  color: #e0e0e0;
 }
 
 @media (max-width: 770px) {
