@@ -16,14 +16,3 @@
     background-size: cover;
   }
 }
-
-@include media-breakpoint-down(mobile) {
-  .page-description-main {
-    padding-top: 248px;
-  }
-
-  .page-description-artist {
-    padding-top: 225px;
-    padding-bottom: 225px;
-  }
-}
