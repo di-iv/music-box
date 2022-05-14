@@ -42,7 +42,7 @@ $utilities: (
   ),
   "pt-mobile": (
     property: padding-top,
-    values: (0: 0),
+    values: (0: 0, 64: 64px),
     responsive: mobile,
   ),
   "pb": (
@@ -51,7 +51,7 @@ $utilities: (
   ),
   "pb-mobile": (
     property: padding-bottom,
-    values: (0: 0, 16: 16px, 69: 69px),
+    values: (0: 0, 16: 16px, 75: 75px),
     responsive: mobile,
   ),
   "flex": (

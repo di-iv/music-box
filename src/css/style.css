@@ -549,6 +549,10 @@ header {
   text-transform: capitalize;
 }
 
+.vertical-align-middle {
+  vertical-align: middle;
+}
+
 @media (max-width: 1240px) {
   .mb-laptop-16 {
     margin-bottom: 16px;
@@ -896,9 +900,17 @@ header {
   padding-top: 0;
 }
 
+.pt-mobile-64 {
+  padding-top: 64px;
+}
+
 @media (max-width: 770px) {
   .pt-mobile-mobile-0 {
     padding-top: 0;
+  }
+
+  .pt-mobile-mobile-64 {
+    padding-top: 64px;
   }
 }
 
@@ -926,8 +938,8 @@ header {
   padding-bottom: 16px;
 }
 
-.pb-mobile-69 {
-  padding-bottom: 69px;
+.pb-mobile-75 {
+  padding-bottom: 75px;
 }
 
 @media (max-width: 770px) {
@@ -939,8 +951,8 @@ header {
     padding-bottom: 16px;
   }
 
-  .pb-mobile-mobile-69 {
-    padding-bottom: 69px;
+  .pb-mobile-mobile-75 {
+    padding-bottom: 75px;
   }
 }
 
