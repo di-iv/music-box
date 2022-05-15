@@ -19,7 +19,7 @@
     @each $breakpoint in $breakpoints {
       @include media-breakpoint-down($breakpoint) {
         @each $value in $values {
-          .#{$name}-#{$breakpoint}-#{get-value-from-type($value, name)} {
+          .#{$name}-#{$breakpoint}-#{"" + get-value-from-type($value, name)} {
             #{$property}: #{get-value-from-type($value)};
           }
         }
@@ -27,7 +27,7 @@
     }
   } @else {
     @each $value in $values {
-      .#{$name}-#{get-value-from-type($value, name)} {
+      .#{$name}-#{"" + get-value-from-type($value, name)} {
         #{$property}: #{get-value-from-type($value)};
       }
     }

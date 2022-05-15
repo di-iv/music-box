@@ -1,5 +1,5 @@
 @mixin btn-bg($color-name, $color, $text-color: $white) {
-  .btn-#{$color-name} {
+  .btn-#{"" + $color-name} {
     color: $text-color;
 
     background-color: $color;
@@ -7,7 +7,7 @@
 }
 
 @mixin btn-outline($color-name, $color) {
-  .btn-#{$color-name}-outline {
+  .btn-#{"" + $color-name}-outline {
     color: $color;
 
     border: 1px solid $color;
