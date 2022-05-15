@@ -494,6 +494,10 @@ header {
   display: flex;
 }
 
+.flex-column {
+  flex-direction: column;
+}
+
 .align-center {
   align-items: center;
 }
@@ -547,26 +551,20 @@ header {
   font-size: 12.8px;
 }
 
+@media (max-width: 1240px) {
+  .flex-laptop-column-reverse {
+    flex-direction: column-reverse;
+  }
+}
+
 @media (max-width: 770px) {
   .flex-align-mobile-start {
     align-items: flex-start;
   }
 
-  .mb-mobile-18 {
-    margin-bottom: 18px;
+  .flex-mobile-column {
+    flex-direction: column;
   }
-
-  .mb-mobile-15 {
-    margin-bottom: 15px;
-  }
-
-  .pt-mobile-48 {
-    padding-top: 48px;
-  }
-}
-
-.mb-0 {
-  margin-bottom: 0;
 }
 
 .mb-15 {
@@ -577,16 +575,8 @@ header {
   margin-bottom: 16px;
 }
 
-.mb-18 {
-  margin-bottom: 18px;
-}
-
 .mb-24 {
   margin-bottom: 24px;
-}
-
-.mb-25 {
-  margin-bottom: 25px;
 }
 
 .mb-30 {
@@ -609,96 +599,48 @@ header {
   margin-bottom: 64px;
 }
 
-.mb-90 {
-  margin-bottom: 90px;
-}
-
 .mb-100 {
   margin-bottom: 100px;
 }
 
-.mb-mobile-16 {
-  margin-bottom: 16px;
-}
-
-.mb-mobile-24 {
-  margin-bottom: 24px;
-}
-
 @media (max-width: 770px) {
-  .mb-mobile-mobile-16 {
+  .mb-mobile-15 {
+    margin-bottom: 15px;
+  }
+
+  .mb-mobile-16 {
     margin-bottom: 16px;
   }
 
-  .mb-mobile-mobile-24 {
+  .mb-mobile-18 {
+    margin-bottom: 18px;
+  }
+
+  .mb-mobile-24 {
     margin-bottom: 24px;
   }
 }
 
-.me-0 {
-  margin-right: 0;
+.ms-auto {
+  margin-left: auto;
 }
 
-.me-15 {
-  margin-right: 15px;
+@media (max-width: 770px) {
+  .ms-mobile-0 {
+    margin-left: 0;
+  }
 }
 
 .me-16 {
   margin-right: 16px;
 }
 
-.me-18 {
-  margin-right: 18px;
-}
-
 .me-24 {
   margin-right: 24px;
 }
 
-.me-25 {
-  margin-right: 25px;
-}
-
-.me-30 {
-  margin-right: 30px;
-}
-
-.me-40 {
-  margin-right: 40px;
-}
-
-.me-48 {
-  margin-right: 48px;
-}
-
-.me-50 {
-  margin-right: 50px;
-}
-
-.me-64 {
-  margin-right: 64px;
-}
-
 .me-90 {
   margin-right: 90px;
-}
-
-.me-100 {
-  margin-right: 100px;
-}
-
-.me-mobile-0 {
-  margin-right: 0;
-}
-
-@media (max-width: 770px) {
-  .me-mobile-mobile-0 {
-    margin-right: 0;
-  }
-}
-
-.pt-0 {
-  padding-top: 0;
 }
 
 .pt-16 {
@@ -707,10 +649,6 @@ header {
 
 .pt-40 {
   padding-top: 40px;
-}
-
-.pt-48 {
-  padding-top: 48px;
 }
 
 .pt-50 {
@@ -730,53 +668,15 @@ header {
     padding-top: 0;
   }
 
-  .pt-mobile-16 {
-    padding-top: 16px;
-  }
-
-  .pt-mobile-40 {
-    padding-top: 40px;
+  .pt-mobile-25 {
+    padding-top: 25px;
   }
 
   .pt-mobile-48 {
     padding-top: 48px;
   }
 
-  .pt-mobile-50 {
-    padding-top: 50px;
-  }
-
-  .pt-mobile-62 {
-    padding-top: 62px;
-  }
-
-  .pt-mobile-100 {
-    padding-top: 100px;
-  }
-}
-
-.pt-mobile-0 {
-  padding-top: 0;
-}
-
-.pt-mobile-25 {
-  padding-top: 25px;
-}
-
-.pt-mobile-64 {
-  padding-top: 64px;
-}
-
-@media (max-width: 770px) {
-  .pt-mobile-mobile-0 {
-    padding-top: 0;
-  }
-
-  .pt-mobile-mobile-25 {
-    padding-top: 25px;
-  }
-
-  .pt-mobile-mobile-64 {
+  .pt-mobile-64 {
     padding-top: 64px;
   }
 }
@@ -793,65 +693,13 @@ header {
   padding-bottom: 72px;
 }
 
-.pb-mobile-0 {
-  padding-bottom: 0;
-}
-
-.pb-mobile-25 {
-  padding-bottom: 25px;
-}
-
-.pb-mobile-16 {
-  padding-bottom: 16px;
-}
-
-.pb-mobile-72 {
-  padding-bottom: 72px;
-}
-
 @media (max-width: 770px) {
-  .pb-mobile-mobile-0 {
-    padding-bottom: 0;
-  }
-
-  .pb-mobile-mobile-25 {
-    padding-bottom: 25px;
-  }
-
-  .pb-mobile-mobile-16 {
+  .pb-mobile-16 {
     padding-bottom: 16px;
   }
 
-  .pb-mobile-mobile-72 {
-    padding-bottom: 72px;
-  }
-}
-
-.flex-column {
-  flex-direction: column;
-}
-
-.flex-column-reverse {
-  flex-direction: column-reverse;
-}
-
-@media (max-width: 770px) {
-  .flex-mobile-column {
-    flex-direction: column;
-  }
-
-  .flex-mobile-column-reverse {
-    flex-direction: column-reverse;
-  }
-}
-
-@media (max-width: 1240px) {
-  .flex-laptop-column {
-    flex-direction: column;
-  }
-
-  .flex-laptop-column-reverse {
-    flex-direction: column-reverse;
+  .pb-mobile-25 {
+    padding-bottom: 25px;
   }
 }
 
@@ -883,12 +731,8 @@ header {
   gap: 65px;
 }
 
-.gap-mobile-30 {
-  gap: 30px;
-}
-
 @media (max-width: 770px) {
-  .gap-mobile-mobile-30 {
+  .gap-mobile-30 {
     gap: 30px;
   }
 }
@@ -909,12 +753,8 @@ header {
   width: 270px;
 }
 
-.w-mobile-100 {
-  width: 100%;
-}
-
 @media (max-width: 770px) {
-  .w-mobile-mobile-100 {
+  .w-mobile-100 {
     width: 100%;
   }
 }

@@ -10,11 +10,9 @@
   }
 }
 
-@mixin utility($name, $property, $breakpoints, $values) {
-  @each $value in $values {
-    .#{$name}-#{get-value-from-type($value, name)} {
-      #{$property}: #{get-value-from-type($value)};
-    }
+@mixin utility($name, $property, $breakpoints, $values, $class) {
+  @if $class {
+    $name: $class;
   }
 
   @if $breakpoints {
@@ -27,6 +25,12 @@
         }
       }
     }
+  } @else {
+    @each $value in $values {
+      .#{$name}-#{get-value-from-type($value, name)} {
+        #{$property}: #{get-value-from-type($value)};
+      }
+    }
   }
 }
 
@@ -36,5 +40,6 @@
     map-get($utility, property),
     map-get($utility, responsive),
     map-get($utility, values),
+    map-get($utility, class),
   );
 }

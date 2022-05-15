@@ -1,45 +1,47 @@
 $utilities: (
   "mb": (
     property: margin-bottom,
-    values: $spacers,
+    values: $mb-values,
   ),
-  "mb-mobile": (
+  "mb-responsive": (
     property: margin-bottom,
-    values: (16: 16px, 24: 24px),
+    class: "mb",
+    values: $mb-mobile-values,
+    responsive: mobile,
+  ),
+  "ms": (
+    property: margin-left,
+    values: $ms-values,
+  ),
+  "ms-responsive": (
+    property: margin-left,
+    class: "ms",
+    values: $ms-mobile-values,
     responsive: mobile,
   ),
   "me": (
     property: margin-right,
-    values: $spacers,
-  ),
-  "me-mobile": (
-    property: margin-right,
-    values: 0,
-    responsive: mobile,
+    values: $me-values,
   ),
   "pt": (
     property: padding-top,
     values: $pt-values,
-    responsive: mobile,
   ),
-  "pt-mobile": (
+  "pt-responsive": (
     property: padding-top,
-    values: (0: 0, 25: 25px, 64: 64px),
+    class: "pt",
+    values: $pt-mobile-values,
     responsive: mobile,
   ),
   "pb": (
     property: padding-bottom,
     values: $pb-values,
   ),
-  "pb-mobile": (
+  "pb-responsive": (
     property: padding-bottom,
-    values: (0: 0, 25: 25px, 16: 16px, 72: 72px),
+    class: "pb",
+    values: $pb-mobile-values,
     responsive: mobile,
-  ),
-  "flex": (
-    property: flex-direction,
-    values: (column, column-reverse),
-    responsive: (mobile, laptop)
   ),
   "fs": (
     property: font-size,
@@ -49,8 +51,9 @@ $utilities: (
     property: gap,
     values: $gaps,
   ),
-  "gap-mobile": (
+  "gap-responsive": (
     property: gap,
+    class: "gap",
     values: (30: 30px),
     responsive: mobile,
   ),
@@ -62,8 +65,9 @@ $utilities: (
     property: width,
     values: $width-values,
   ),
-  "w-mobile": (
+  "w-responsive": (
     property: width,
+    class: "w",
     values: (100: 100%),
     responsive: mobile,
   )
