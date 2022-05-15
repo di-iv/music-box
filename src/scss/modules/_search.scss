@@ -1,19 +1,18 @@
 .search {
   width: 248px;
   height: 25px;
-  margin-left: auto;
   padding: 5px 10px;
 
   font-size: 13.3px;
   text-transform: uppercase;
 
   background-color: $dark-grey;
+
   border-radius: 50px;
 }
 
 @include media-breakpoint-down(mobile) {
   .search {
     width: 100%;
-    margin-left: 0;
   }
 }

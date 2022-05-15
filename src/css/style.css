@@ -98,7 +98,6 @@ header {
 .search {
   width: 248px;
   height: 25px;
-  margin-left: auto;
   padding: 5px 10px;
 
   font-size: 13.3px;
@@ -111,7 +110,6 @@ header {
 @media (max-width: 770px) {
   .search {
     width: 100%;
-    margin-left: 0;
   }
 }
 
